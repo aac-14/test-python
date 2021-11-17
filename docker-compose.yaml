@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  python :
+    build: python/Dockerfile
+    ports: 
+      - "8080:5000"
+
+  redis:
+    image: "redis:alpine"    
