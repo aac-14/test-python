@@ -2,7 +2,7 @@ version: '3'
 
 services:
   python :
-    build: python/
+    build: .
     ports: 
       - "8080:5000"
 
